@@ -1,0 +1,9 @@
+This project is a BBCode* compiler for use with bulletin boards or anywhere else
+where BBCode is needed. The instructions for parsing BBCode tags can be customized
+easily without touching the actual PHP code of the compiler. It's quite flexible,
+actually.
+
+The BBCode compiler library is found at src/BBCode.php. Default set of compiler
+instructions are found at src/dtd.php.
+
+* http://en.wikipedia.org/wiki/BBCode

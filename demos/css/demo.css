@@ -1,0 +1,32 @@
+/*
+ * These styles are not related to the BBCode parser, they are just to make
+ * the examples a bit more visually appealing.
+ */
+
+ * {
+    font-size: medium;
+}
+
+.message {
+    width: 600px;
+    border: 1px solid #9d9d9d;
+    margin: 120px auto;
+}
+
+.message > header {
+    background-color: #eee;
+    padding: 3px 10px;
+}
+
+.message > header > .datetime {
+    float: right;
+}
+
+.message > .content {
+    padding: 10px;
+    text-align: justify;
+}
+
+.username {
+    font-weight: bold;
+}

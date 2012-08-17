@@ -1,0 +1,81 @@
+/**
+ * Styles for BBCode elements
+ **/
+
+.bbcode-u {
+    text-decoration: underline;
+}
+
+.bbcode-i {
+    font-style: italic;
+}
+
+.bbcode-b {
+    font-weight: bold;
+}
+
+.bbcode-url {
+    color: blue;
+    text-decoration: underline;
+}
+
+.bbcode-code {
+    display: block;
+}
+
+.bbcode-quote,
+.bbcode-code {
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    margin: 0;
+}
+
+.bbcode-code {
+    border-style: dashed;
+    margin-top: 5px;
+}
+
+.bbcode-img {
+    max-width: 96%;
+    border: 1px dashed #d9d9d9;
+}
+
+.bbcode-size.size-1 {
+    font-size: xx-small;
+}
+
+.bbcode-size.size-2 {
+    font-size: x-small;
+}
+
+.bbcode-size.size-3 {
+    font-size: small;
+}
+
+.bbcode-size.size-4 {
+    font-size: medium;
+}
+
+.bbcode-size.size-5 {
+    font-size: large;
+}
+
+.bbcode-size.size-6 {
+    font-size: x-large;
+}
+
+.bbcode-size.size-7 {
+    font-size: xx-large;
+}
+
+.bbcode-quote-header,
+.bbcode-code-header {
+    background-color: #eee;
+    display: block;
+    padding: 5px;
+    margin: -5px;
+}
+
+.bbcode-quote-header {
+    margin-bottom: 5px;
+}
